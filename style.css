@@ -1,0 +1,105 @@
+/* Reset Commom Code Start Here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+}
+html{
+    background-color: #fafafa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif; 
+
+    /* font-family: 'Italianno', cursive;*/
+}
+body{
+    background-color: #fff;
+    max-width: 100%;
+    width: 120rem;
+    margin: auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4; 
+}
+/* Reset Commom Code Ends Here */
+
+/* Header Starts Here */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    min-height: 5vh;
+}
+.logo-figure{
+    border: 1px solid white;
+}
+.logo{
+    font-size: 3rem;
+}
+nav li{
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1rem;
+    transition: .4s;
+}
+nav li:last-child{
+    margin-right: 0;
+}
+nav li:hover{
+   text-decoration: underline;
+   transform: scale(1.1);
+}
+.nav-link{
+    font-size: 1.8rem;
+    color: white;
+}
+/* Header Ends Here------------------------------------- */
+
+/* Banner Start Here------------------------------------- */
+#blog-banner{
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+.aside-pic{
+    width: 55rem;
+    height: 40rem;
+    border: 2px solid rgb(113, 139, 6);
+    border-radius: 5px;
+   
+}
+#blog-banner article{
+    flex-basis: 50%;
+    margin: 1rem;
+}
+#blog-banner aside{
+    flex-basis: 50%;
+}
+
+.banner-heading{
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-size: 4rem;
+    margin-bottom:1.5rem ;
+    /* font-family: 'Italianno', cursive; */
+    background: #000;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.banner-desc{
+    text-align: justify;
+    font-size: 1.8rem
+}
+/* Banner Ends Here */

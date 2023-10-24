@@ -1,0 +1,48 @@
+@media (max-width: 992px){
+#blog-banner{
+    flex-direction: column;
+}
+#blog-banner article{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    
+}
+
+}
+/* -------------------------------------------- */
+@media (max-width: 768px){
+    html{
+        font-size: 55.5%;
+    }
+    #blog-banner article{
+        width: 80%;
+    }
+}
+/* -------------------------------------------- */
+@media (max-width: 600px){
+    html{
+        font-size: 48.5%;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        padding-left: 2.5rem;
+    }
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin: 1rem 0;
+    }
+    /* ---------------------------- */
+    #blog-banner {
+        min-height: auto;
+    }
+    #blog-banner article{
+        width: 90%;
+    }
+ 
+}
